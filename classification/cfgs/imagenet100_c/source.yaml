@@ -1,0 +1,12 @@
+CORRUPTION:
+  DATASET: imagenet100_c
+  STREAM_CSV: ""
+  SEVERITY:
+    - 1
+  TYPE:
+    - stream
+MODEL:
+  ADAPTATION: source
+  ARCH: resnet50
+TEST:
+  BATCH_SIZE: 64
